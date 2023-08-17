@@ -1,10 +1,11 @@
 #!/usr/bin/env python3
-""" User model """
-
-from sqlalchemy import create_engine, Column, Integer, String
+""" User model
+"""
 from sqlalchemy.ext.declarative import declarative_base
+from sqlalchemy import Column, Integer, String
 
 Base = declarative_base()
+
 
 class User(Base):
     """ User class """
